@@ -1,0 +1,28 @@
+h4 {
+  border: 0.2px inset white;
+  border-width: 0.2px;
+  color: whitesmoke;
+  background-color: transparent;
+  width: 50%;
+  font-family: "Times New Roman", serif;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-left: 0;
+}
+
+label.title {
+  color: whitesmoke;
+  font-family: "Times New Roman", serif;
+}
+
+label.desc {
+  color: whitesmoke;
+  font-family: "Times New Roman", serif;
+}
+button {
+  background-color: rgb(16, 4, 251);
+  border: 1.5px solid whitesmoke;
+  font-size: 16px;
+  color: whitesmoke;
+  font-family: "Times New Roman", serif;
+}

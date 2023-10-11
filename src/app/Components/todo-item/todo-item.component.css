@@ -1,0 +1,75 @@
+.strike {
+  text-decoration: line-through;
+}
+h5 {
+  color: white;
+}
+p {
+  color: white;
+}
+label {
+  color: white;
+}
+button {
+  float: right;
+  background-color: #dc3545;
+  border: 1px solid red;
+  font-size: 16px;
+  color: #000;
+}
+
+button:hover {
+  transform: scale(1.3);
+  box-shadow: 0 0 40px white;
+}
+
+input[type="checkbox"] {
+  background-color: white;
+}
+
+input[type="checkbox"]:checked {
+  background-color: blue;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 1px solid lightskyblue;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding: 10px;
+  margin-bottom: 2rem;
+}
+.box {
+  display: grid;
+  width: 50%;
+  grid-template-columns: auto auto;
+  color: whitesmoke;
+  width: 25%;
+  float: left;
+  padding: 15px;
+  font-family: Georgia, serif;
+  float: left;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: end;
+  justify-items: center;
+}
+.button {
+  display: grid;
+  width: 50%;
+  grid-template-columns: auto auto;
+  color: whitesmoke;
+  width: 25%;
+
+  padding: 15px;
+  font-family: Georgia, serif;
+  float: right;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: end;
+  justify-items: center;
+}
